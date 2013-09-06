@@ -10,3 +10,6 @@ This repository contains the original contrack implementation as well as a Matla
 
 StanfordTools-DWI : C++ Contrack implementation
 src : Matlab Contrack implementation
+
+A tutorial can be found at
+http://white.stanford.edu/newlm/index.php/ConTrack_Score
