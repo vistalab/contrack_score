@@ -12,4 +12,4 @@ StanfordTools-DWI : C++ Contrack implementation
 src : Matlab Contrack implementation
 
 A tutorial can be found at
-http://white.stanford.edu/newlm/index.php/ConTrack_Score
+http://web.stanford.edu/group/vista/cgi-bin/wiki/index.php/ConTrack_Score
