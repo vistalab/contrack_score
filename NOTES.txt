@@ -1,12 +1,5 @@
 Samir's contrack mod.
 
-Vista lab software:
-
-white : File server + web server
-* To get the data:  sftp://white/biac3/wandell4/users/smenon
-
-azure : Matlab
-peach : Matlab
 
 ================
 To set up contrack with Eclipse:
@@ -15,7 +8,7 @@ To set up contrack with Eclipse:
 2. Replace -O5 with -O0 -g -ggdb -pg
 3. Recompile both
 4. Run them with :
-<base_dir>/contrack.git/data/sub100311rd/fibers/conTrack/opticRadiation$ cat ctrScript_20110827T152126.sh 
+<base_dir>/contrack.git/data/sub100311rd/fibers/conTrack/opticRadiation$ cat ctrScript_20110827T152126.sh
 $ contrack_gen -i ctrSampler_20110827T152126.txt -p ltLGN_ltCalcFreesurfer_9_20110827T152126.pdb
 
 
@@ -35,7 +28,7 @@ TODO:
 > Contrack: uses vox_id_xyz ./ sizeof(vox_xyz)
 See in DTIStats::computeLogScoreAbsorption()
 
-4. Is the xyz ras or acpc? 
+4. Is the xyz ras or acpc?
 > Most likely ras. Double check.
 
 5. Ask for xform as argument or read from data struct?
@@ -57,7 +50,7 @@ Some notes from contrack:
 (a) LogAbsorbtion : Whether or not the fiber is {hit target, exit wm; else}.
 DTIStats::computeLogScoreAbsorption()
 
-(b) LogPrior : 
+(b) LogPrior :
 DTIStats::computeLogScorePrior()
 ===================================
 
